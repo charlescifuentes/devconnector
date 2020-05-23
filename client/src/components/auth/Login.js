@@ -24,9 +24,6 @@ const Login = ({ login, isAuthenticated }) => {
     return <Redirect to='/dashboard' />;
   }
 
-  console.log(login);
-  console.log(isAuthenticated);
-
   return (
     <Fragment>
       <h1 className='large text-primary'>Sign In</h1>
